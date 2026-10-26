@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650">
+<defs><linearGradient id="black" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4b5047"/><stop offset="1" stop-color="#171a17"/></linearGradient><linearGradient id="cream" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5efdf"/><stop offset="1" stop-color="#c9c1ae"/></linearGradient><filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="13"/></filter></defs>
+<ellipse cx="405" cy="555" rx="250" ry="35" fill="#000" opacity=".24" filter="url(#shadow)"/>
+<g transform="translate(25 18) rotate(-9 300 300)">
+<path d="M260 135 Q250 85 305 65 Q360 45 390 95 L415 142 L480 177 L550 260 L480 320 L438 280 L438 480 Q335 520 225 480 L225 280 L182 320 L112 260 L182 177 Z" fill="url(#cream)" stroke="#b8b09e" stroke-width="4"/>
+<path d="M270 125 Q300 165 350 165 Q395 160 415 130 L432 155 Q390 205 344 202 Q292 200 251 158Z" fill="#b9b09e" opacity=".75"/>
+<path d="M275 133 Q300 178 350 178 Q392 174 410 137 Q390 88 348 85 Q300 85 275 133Z" fill="#a8a08e"/>
+<path d="M225 280 L225 480 Q330 515 438 480 L438 280" fill="none" stroke="#b8b09e" stroke-width="3"/>
+<path d="M270 380 Q330 405 392 380 L392 438 Q330 463 270 438Z" fill="#d9d1bf" stroke="#b8b09e" stroke-width="3"/>
+<path d="M310 202 L310 340 M370 202 L370 340" stroke="#b0a894" stroke-width="3"/>
+<text x="342" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" letter-spacing="4" fill="#64695d">HL</text>
+</g>
+<g transform="translate(320 10) rotate(10 250 300)">
+<path d="M220 145 Q205 95 260 72 Q310 48 348 92 L375 145 L438 180 L510 260 L445 325 L405 280 L405 480 Q300 520 195 480 L195 280 L155 325 L90 260 L160 180 Z" fill="url(#black)" stroke="#0e100e" stroke-width="4"/>
+<path d="M230 135 Q258 178 307 178 Q350 174 370 137 L390 157 Q350 204 305 202 Q255 200 213 157Z" fill="#101310"/>
+<path d="M236 137 Q260 90 305 88 Q350 92 365 139 Q346 171 305 173 Q263 171 236 137Z" fill="#292e27"/>
+<path d="M195 280 L195 480 Q300 515 405 480 L405 280" fill="none" stroke="#555b50" stroke-width="3"/>
+<path d="M240 380 Q300 405 360 380 L360 438 Q300 463 240 438Z" fill="#242923" stroke="#596052" stroke-width="3"/>
+<path d="M278 205 L278 340 M328 205 L328 340" stroke="#777d70" stroke-width="3"/>
+<text x="308" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" letter-spacing="4" fill="#d7f36a">HL</text>
+</g></svg>

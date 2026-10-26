@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Katalog hoodie dengan desain nyaman dan kekinian. Pesan langsung melalui WhatsApp.">
+  <title>NIX — Own Your Style</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#beranda"><span class="brand-mark">H</span> HOODIE<span>LAB</span></a>
+    <nav aria-label="Navigasi utama">
+      <a href="#katalog">Katalog</a>
+      <a href="#pesanan">Pesanan</a>
+      <a href="#testimoni">Testimoni</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero-copy">
+        <p class="eyebrow">EVERYDAY COMFORT • EVERYDAY STYLE</p>
+        <h1>Gaya santai,<br><span>percaya diri.</span></h1>
+        <p class="hero-desc">Hoodie nyaman untuk menemani aktivitas kamu. Pilih model favoritmu dan pesan dengan mudah.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#katalog">Lihat Katalog <span>↗</span></a>
+          <a class="text-link" href="#pesanan">Cara pesan</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="art-glow"></div>
+        <img src="assets/hoodie-mockup.svg" alt="Ilustrasi mockup hoodie warna hitam dan krem">
+        <div class="floating-note"><span class="dot"></span> COMFORT FIT<br><small>Nyaman dipakai setiap hari</small></div>
+      </div>
+      <div class="hero-bottom"><span>01 / HOODIE COLLECTION</span><span>DESIGNED FOR YOUR DAILY LOOK</span></div>
+    </section>
+
+    <section class="section" id="katalog">
+      <div class="section-heading">
+        <div><p class="eyebrow">PILIH FAVORITMU</p><h2>Katalog <span>Hoodie</span></h2></div>
+        <p>Model simpel, warna mudah dipadukan,<br>dan nyaman untuk gaya sehari-hari.</p>
+      </div>
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section class="order-section" id="pesanan">
+      <div class="order-intro">
+        <p class="eyebrow">MUDAH & PRAKTIS</p>
+        <h2>Pesan hoodie<br><span>pilihanmu.</span></h2>
+        <p>Isi detail pesanan di samping. Setelah menekan tombol, WhatsApp akan terbuka dengan format pesan yang siap dikirim.</p>
+        <div class="order-perks"><span>✓ Pilih produk</span><span>✓ Tentukan jumlah</span><span>✓ Konfirmasi via WhatsApp</span></div>
+      </div>
+      <form class="order-card" id="order-form">
+        <h3>Detail Pesanan</h3>
+        <label for="customer-name">Nama kamu</label>
+        <input id="customer-name" name="customer-name" type="text" placeholder="Masukkan nama" required>
+        <label for="product">Pilih produk</label>
+        <select id="product" name="product" required></select>
+        <div class="form-row">
+          <div><label for="size">Ukuran</label><select id="size" name="size"><option>S</option><option>M</option><option selected>L</option><option>XL</option><option>XXL</option></select></div>
+          <div><label for="quantity">Jumlah</label><input id="quantity" name="quantity" type="number" min="1" max="99" value="1" required></div>
+        </div>
+        <label for="address">Alamat / catatan (opsional)</label>
+        <textarea id="address" name="address" rows="3" placeholder="Alamat pengiriman atau catatan tambahan"></textarea>
+        <div class="total-line"><span>Estimasi total</span><strong id="total-price">Rp0</strong></div>
+        <button class="button button-dark full" type="submit">Pesan Sekarang <span>↗</span></button>
+        <p class="form-note">Harga dan ketersediaan akan dikonfirmasi melalui WhatsApp.</p>
+      </form>
+    </section>
+
+    <section class="section testimonials" id="testimoni">
+      <div class="section-heading">
+        <div><p class="eyebrow">KATA MEREKA</p><h2>Ulasan <span>Pelanggan</span></h2></div>
+        <p>Contoh tampilan testimoni — ganti dengan<br>ulasan asli pelanggan tokomu.</p>
+      </div>
+      <div class="review-grid">
+        <article class="review-card"><div class="stars">★★★★★</div><p>“Bahannya terasa nyaman dan modelnya simpel. Cocok dipakai buat jalan atau nongkrong.”</p><div class="review-person"><div class="avatar">RA</div><div><strong>Raka A.</strong><small>Pembeli Hoodie Basic</small></div></div></article>
+        <article class="review-card"><div class="stars">★★★★★</div><p>“Warnanya sesuai foto dan gampang dipadukan dengan outfit lain. Bakal pesan lagi.”</p><div class="review-person"><div class="avatar">DN</div><div><strong>Dina N.</strong><small>Pembeli Hoodie Essential</small></div></div></article>
+        <article class="review-card"><div class="stars">★★★★★</div><p>“Proses pemesanan lewat WhatsApp mudah, admin juga membantu menjelaskan ukuran.”</p><div class="review-person"><div class="avatar">AF</div><div><strong>Andi F.</strong><small>Pembeli Hoodie Oversize</small></div></div></article>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#beranda"><span class="brand-mark">H</span> HOODIE<span>LAB</span></a><p>Nyaman dipakai. Mudah jadi gaya.</p><small>© <span id="year"></span> NIX. Own Your Style.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
